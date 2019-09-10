@@ -1,0 +1,32 @@
+{
+  "name": "kafka-simulator",
+  "version": "1.0.0",
+  "description": "Generate events to kafka broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odedlevy02/kafka-simulator.git"
+  },
+  "keywords": [
+    "kafka",
+    "simulator",
+    "connect"
+  ],
+  "author": "Oded Levy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odedlevy02/kafka-simulator/issues"
+  },
+  "homepage": "https://github.com/odedlevy02/kafka-simulator#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "dummy-json": "^2.0.0",
+    "kafka-node": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  }
+}
