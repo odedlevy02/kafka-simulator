@@ -2,7 +2,7 @@
 ## Build docker image from src
 run:
 ```
-docker build -t odedlevy/kafka-producer-simulator .
+docker build -t odedl/kafka-producer-simulator .
 ```
 ## Environment settings
 Here is the list of supported env settings
@@ -24,7 +24,7 @@ Here is the default template used when not creating your own:
 ```
 To run the docker with custom template (for windows set the full path)
 ```
-docker run  -v "C:\Git\kafkatest\template":/var/src/template -it odedlevy/kafka-simulator
+docker run  -v "C:\Git\kafkatest\template":/var/src/template -it odedl/kafka-producer-simulator
 ```
 
 ## Running from docker-compose
@@ -33,7 +33,7 @@ In your docker compose file add the following:
 version: '3'
 services:
   kafka-simulator:
-    image: odedlevy/kafka-simulator
+    image: odedl/kafka-producer-simulator
     volumes:
       - C:\Git\Oded\kafkatest\template:/var/src/template
     environment:

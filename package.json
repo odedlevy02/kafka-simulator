@@ -1,5 +1,5 @@
 {
-  "name": "kafka-simulator",
+  "name": "kafka-producer-simulator",
   "version": "1.0.0",
   "description": "Generate events to kafka broker",
   "main": "index.js",
