@@ -39,7 +39,7 @@ services:
     environment:
       - KAFKA_BOOTSTRAP_SERVER=localhost:9092
       - KAFKA_TOPIC=test
-      - NUM_EVENTS_PER_SECOND=0.5
+      - NUM_EVENTS_PER_SECOND=1
       - DELAY_START_SEC=0
 ```
 
