@@ -92,7 +92,7 @@ export class ProducerSimulator {
             }]
             this._producer.send(payloads, (err, data) => {
                 if (err) {
-                    console.error("Failed to send message. Error: " + err.messages);
+                    console.error("Failed to send message. Error: " + err.message);
                 }
             })
         }
